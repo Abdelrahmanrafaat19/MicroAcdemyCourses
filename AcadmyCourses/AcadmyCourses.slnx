@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/Sources/" />
+  <Folder Name="/Sources/Services/" />
+  <Folder Name="/Sources/Services/IDentityService/">
+    <Project Path="../AcadmyCourses.IDentity.Api/AcadmyCourses.IDentity.Api.csproj" />
+    <Project Path="../AcadmyCourses.IDentity.Application/AcadmyCourses.IDentity.Application.csproj" />
+    <Project Path="../AcadmyCourses.IDentity.Domain/AcadmyCourses.IDentity.Domain.csproj" />
+    <Project Path="../AcadmyCourses.IDentity.Inftustucture/AcadmyCourses.IDentity.Inftustucture.csproj" />
+  </Folder>
+</Solution>

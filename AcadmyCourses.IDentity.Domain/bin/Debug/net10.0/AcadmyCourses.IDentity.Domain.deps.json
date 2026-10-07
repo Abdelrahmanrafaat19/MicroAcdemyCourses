@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "AcadmyCourses.IDentity.Domain/1.0.0": {
+        "runtime": {
+          "AcadmyCourses.IDentity.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AcadmyCourses.IDentity.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

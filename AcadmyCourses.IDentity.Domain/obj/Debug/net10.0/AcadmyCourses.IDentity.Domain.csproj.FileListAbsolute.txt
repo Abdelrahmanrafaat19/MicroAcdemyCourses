@@ -1,0 +1,12 @@
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\bin\Debug\net10.0\AcadmyCourses.IDentity.Domain.deps.json
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\bin\Debug\net10.0\AcadmyCourses.IDentity.Domain.dll
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\bin\Debug\net10.0\AcadmyCourses.IDentity.Domain.pdb
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.AssemblyInfoInputs.cache
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.AssemblyInfo.cs
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.csproj.CoreCompileInputs.cache
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.dll
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\refint\AcadmyCourses.IDentity.Domain.dll
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.pdb
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\ref\AcadmyCourses.IDentity.Domain.dll
+D:\AcadmyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCo.FDF0BA1A.Up2Date

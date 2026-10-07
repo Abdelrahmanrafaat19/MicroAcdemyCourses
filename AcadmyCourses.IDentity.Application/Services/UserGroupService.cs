@@ -1,0 +1,26 @@
+﻿using AcadmyCourses.IDentity.Application.Contracts.Repositories;
+using AcadmyCourses.IDentity.Application.Contracts.Servicees;
+using AcadmyCourses.IDentity.Application.Dtos.UserGroupDtos;
+using StockManagment.Application.common;
+
+namespace AcadmyCourses.IDentity.Application.Services
+{
+    public class UserGroupService : IUserGroupService
+    {
+        private readonly IUserGroupRepository _userGroupRepository;
+        public UserGroupService(IUserGroupRepository userGroupRepository)
+        {
+            _userGroupRepository = userGroupRepository;
+        }
+
+        public async Task<Result<CreateUserGroupDtos>> CreateUserGroupasync(DataUserGroupDtos data, CancellationToken ct)
+        {
+            return await _userGroupRepository.CreateUserasync(data, ct);
+        }
+
+        public async Task<Result<CreateUserGroupDtos>> UpdateUserGroupasync(Guid id, DataUserGroupDtos data, CancellationToken ct)
+        {
+            return await _userGroupRepository.UpdateUserasync(id, data, ct);
+        }
+    }
+}
