@@ -13,9 +13,19 @@ namespace AcadmyCourses.IDentity.Application.Services
             _userGroupRepository = userGroupRepository;
         }
 
+        public async Task<Result<PermissionAddToGroups>> AssignPermissionToGroupAsync(Guid groupId, List<Guid> permissionCodes, CancellationToken ct)
+        {
+            return await _userGroupRepository.AssidnPermissionToGroupAsync(groupId, permissionCodes, ct);
+        }
+
         public async Task<Result<CreateUserGroupDtos>> CreateUserGroupasync(DataUserGroupDtos data, CancellationToken ct)
         {
             return await _userGroupRepository.CreateUserasync(data, ct);
+        }
+
+        public async Task<Result<List<dynamic>>> GetAllUserGroupAsync(CancellationToken ct)
+        {
+            return await _userGroupRepository.GetAllUserGroupAsync(ct);
         }
 
         public async Task<Result<CreateUserGroupDtos>> UpdateUserGroupasync(Guid id, DataUserGroupDtos data, CancellationToken ct)

@@ -1,0 +1,17 @@
+﻿using AcadmyCourses.IDentity.Application.Dtos.UserGroupDtos;
+using StockManagment.Application.common;
+using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace AcadmyCourses.IDentity.Application.Contracts.Repositories
+{
+    public interface IUserGroupRepository
+    {
+        Task<Result<CreateUserGroupDtos>> CreateUserasync(DataUserGroupDtos data, CancellationToken ct);
+        Task<Result<CreateUserGroupDtos>> UpdateUserasync(Guid id, DataUserGroupDtos data, CancellationToken ct);
+        Task<Result<PermissionAddToGroups>> AssidnPermissionToGroupAsync(Guid groupId, List<Guid> permissionCodes, CancellationToken ct);
+    }
+}

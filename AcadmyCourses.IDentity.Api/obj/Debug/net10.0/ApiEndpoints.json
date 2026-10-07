@@ -111,6 +111,27 @@
   },
   {
     "ContainingType": "AcadmyCourses.IDentity.Api.Controllers.UserGroupController",
+    "Method": "AssignPermissionToGroup",
+    "RelativePath": "api/UserGroup/AssignPermissionToGroup/{groupId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "permissionCodes",
+        "Type": "System.Collections.Generic.List\u00601[[System.Guid, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcadmyCourses.IDentity.Api.Controllers.UserGroupController",
     "Method": "CreateUserGroup",
     "RelativePath": "api/UserGroup/CreateUserGroup",
     "HttpMethod": "POST",
@@ -123,6 +144,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcadmyCourses.IDentity.Api.Controllers.UserGroupController",
+    "Method": "GetAllUserGroups",
+    "RelativePath": "api/UserGroup/GetAllUserGroups",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

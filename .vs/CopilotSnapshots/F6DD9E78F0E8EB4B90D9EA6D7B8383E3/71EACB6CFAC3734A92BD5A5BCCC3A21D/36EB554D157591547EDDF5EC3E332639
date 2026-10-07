@@ -1,0 +1,15 @@
+﻿using AcadmyCourses.IDentity.Application.Dtos.PermissionDto;
+using System;
+using System.Collections.Generic;
+
+namespace AcadmyCourses.IDentity.Application.Dtos.UserGroupDtos
+{
+    public class UserGroupWithPermissionsDto
+    {
+        public Guid Id { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string? Description { get; set; }
+        public bool IsActive { get; set; }
+        public List<PermissionDto> Permissions { get; set; } = new List<PermissionDto>();
+    }
+}

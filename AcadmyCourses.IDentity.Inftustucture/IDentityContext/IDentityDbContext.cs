@@ -9,6 +9,7 @@ namespace AcadmyCourses.IDentity.Inftustucture.IDentityContext
 {
     public class IDentityDbContext : IdentityDbContext<UserEntity>
     {
+        public DbSet<Permission> Permissions { get; set; }
         public IDentityDbContext(DbContextOptions<IDentityDbContext> options):base (options)
         {
             

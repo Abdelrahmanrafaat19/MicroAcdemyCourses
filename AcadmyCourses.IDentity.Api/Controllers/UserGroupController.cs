@@ -33,5 +33,19 @@ namespace AcadmyCourses.IDentity.Api.Controllers
             return HandleResult(result);
         }
 
+        [HttpPost("AssignPermissionToGroup/{groupId}")]
+        public async Task<IActionResult> AssignPermissionToGroup([FromRoute] Guid groupId, [FromBody] List<Guid> permissionCodes)
+        {
+            var result = await _userGroupService.AssignPermissionToGroupAsync(groupId, permissionCodes, CancellationToken.None);
+            return HandleResult(result);
+        }
+
+        [HttpGet("GetAllUserGroups")]
+        public async Task<IActionResult> GetAllUserGroups()
+        {
+            var result = await _userGroupService.GetAllUserGroupAsync(CancellationToken.None);
+            return HandleResult(result);
+        }
+
     }
 }

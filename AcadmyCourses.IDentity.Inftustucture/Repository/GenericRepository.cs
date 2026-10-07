@@ -16,7 +16,7 @@ namespace AcadmyCourses.IDentity.Inftustucture.Repository
             _context = context;
         }
 
-        public async Task<T?> GetByIdAsync(int id)
+        public async Task<T?> GetByIdAsync<IDType>(IDType id)
         {
             return await _context
                 .Set<T>()
@@ -72,6 +72,10 @@ namespace AcadmyCourses.IDentity.Inftustucture.Repository
         public void Delete(T entity)
         {
             _context.Set<T>().Remove(entity);
+        }
+        public async Task AddRangeAsync(IEnumerable<T> entities)
+        {
+            await _context.Set<T>().AddRangeAsync(entities);
         }
 
         private IQueryable<T> ApplySpecification(

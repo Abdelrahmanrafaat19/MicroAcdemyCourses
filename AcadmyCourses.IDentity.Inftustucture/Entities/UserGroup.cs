@@ -15,5 +15,8 @@ namespace AcadmyCourses.IDentity.Domain.UserGroup
 
         public bool IsActive { get; set; }
         public ICollection<UserEntity> Users { get; set; } = new List<UserEntity>();
+        public ICollection<GroupPermission> UserGroupPermissions { get; set; } = new List<GroupPermission>();
+
+
     }
 }

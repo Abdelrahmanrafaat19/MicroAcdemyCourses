@@ -17,3 +17,24 @@ D:\AcadmyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\refint\A
 D:\AcadmyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.pdb
 D:\AcadmyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.genruntimeconfig.cache
 D:\AcadmyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\ref\AcadmyCourses.IDentity.Inftustucture.dll
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\bin\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.deps.json
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\bin\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.runtimeconfig.json
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\bin\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.dll
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\bin\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.pdb
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\bin\Debug\net10.0\AcadmyCourses.IDentity.Application.dll
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\bin\Debug\net10.0\AcadmyCourses.IDentity.Domain.dll
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\bin\Debug\net10.0\AcadmyCourses.IDentity.Application.pdb
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\bin\Debug\net10.0\AcadmyCourses.IDentity.Domain.pdb
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.csproj.AssemblyReference.cache
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.AssemblyInfoInputs.cache
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.AssemblyInfo.cs
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.csproj.CoreCompileInputs.cache
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.sourcelink.json
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCo.CB0EF227.Up2Date
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.dll
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\refint\AcadmyCourses.IDentity.Inftustucture.dll
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.pdb
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\AcadmyCourses.IDentity.Inftustucture.genruntimeconfig.cache
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\obj\Debug\net10.0\ref\AcadmyCourses.IDentity.Inftustucture.dll
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Inftustucture\bin\Debug\net10.0\Entities\SeedData\permissions.json

@@ -1,0 +1,252 @@
+[
+  {
+    "Code": "Users.View",
+    "Name": "View Users",
+    "Module": "Users"
+  },
+  {
+    "Code": "Users.Create",
+    "Name": "Create Users",
+    "Module": "Users"
+  },
+  {
+    "Code": "Users.Update",
+    "Name": "Update Users",
+    "Module": "Users"
+  },
+  {
+    "Code": "Users.Deactivate",
+    "Name": "Deactivate Users",
+    "Module": "Users"
+  },
+
+  {
+    "Code": "UserGroups.View",
+    "Name": "View User Groups",
+    "Module": "UserGroups"
+  },
+  {
+    "Code": "UserGroups.Create",
+    "Name": "Create User Groups",
+    "Module": "UserGroups"
+  },
+  {
+    "Code": "UserGroups.Update",
+    "Name": "Update User Groups",
+    "Module": "UserGroups"
+  },
+  {
+    "Code": "UserGroups.Delete",
+    "Name": "Delete User Groups",
+    "Module": "UserGroups"
+  },
+
+  {
+    "Code": "Permissions.View",
+    "Name": "View Permissions",
+    "Module": "Permissions"
+  },
+  {
+    "Code": "Permissions.Assign",
+    "Name": "Assign Permissions",
+    "Module": "Permissions"
+  },
+
+  {
+    "Code": "Branches.View",
+    "Name": "View Branches",
+    "Module": "Branches"
+  },
+  {
+    "Code": "Branches.Create",
+    "Name": "Create Branches",
+    "Module": "Branches"
+  },
+  {
+    "Code": "Branches.Update",
+    "Name": "Update Branches",
+    "Module": "Branches"
+  },
+  {
+    "Code": "Branches.Deactivate",
+    "Name": "Deactivate Branches",
+    "Module": "Branches"
+  },
+
+  {
+    "Code": "Courses.View",
+    "Name": "View Courses",
+    "Module": "Courses"
+  },
+  {
+    "Code": "Courses.Create",
+    "Name": "Create Courses",
+    "Module": "Courses"
+  },
+  {
+    "Code": "Courses.Update",
+    "Name": "Update Courses",
+    "Module": "Courses"
+  },
+  {
+    "Code": "Courses.Deactivate",
+    "Name": "Deactivate Courses",
+    "Module": "Courses"
+  },
+
+  {
+    "Code": "Subjects.View",
+    "Name": "View Subjects",
+    "Module": "Subjects"
+  },
+  {
+    "Code": "Subjects.Create",
+    "Name": "Create Subjects",
+    "Module": "Subjects"
+  },
+  {
+    "Code": "Subjects.Update",
+    "Name": "Update Subjects",
+    "Module": "Subjects"
+  },
+  {
+    "Code": "Subjects.Delete",
+    "Name": "Delete Subjects",
+    "Module": "Subjects"
+  },
+
+  {
+    "Code": "CourseOfferings.View",
+    "Name": "View Course Offerings",
+    "Module": "CourseOfferings"
+  },
+  {
+    "Code": "CourseOfferings.Create",
+    "Name": "Create Course Offerings",
+    "Module": "CourseOfferings"
+  },
+  {
+    "Code": "CourseOfferings.Update",
+    "Name": "Update Course Offerings",
+    "Module": "CourseOfferings"
+  },
+  {
+    "Code": "CourseOfferings.Cancel",
+    "Name": "Cancel Course Offerings",
+    "Module": "CourseOfferings"
+  },
+
+  {
+    "Code": "Students.View",
+    "Name": "View Students",
+    "Module": "Students"
+  },
+  {
+    "Code": "Students.Create",
+    "Name": "Create Students",
+    "Module": "Students"
+  },
+  {
+    "Code": "Students.Update",
+    "Name": "Update Students",
+    "Module": "Students"
+  },
+  {
+    "Code": "Students.Deactivate",
+    "Name": "Deactivate Students",
+    "Module": "Students"
+  },
+
+  {
+    "Code": "StudentDocuments.View",
+    "Name": "View Student Documents",
+    "Module": "StudentDocuments"
+  },
+  {
+    "Code": "StudentDocuments.Upload",
+    "Name": "Upload Student Documents",
+    "Module": "StudentDocuments"
+  },
+  {
+    "Code": "StudentDocuments.Delete",
+    "Name": "Delete Student Documents",
+    "Module": "StudentDocuments"
+  },
+
+  {
+    "Code": "Enrollments.View",
+    "Name": "View Enrollments",
+    "Module": "Enrollments"
+  },
+  {
+    "Code": "Enrollments.Create",
+    "Name": "Create Enrollments",
+    "Module": "Enrollments"
+  },
+  {
+    "Code": "Enrollments.Cancel",
+    "Name": "Cancel Enrollments",
+    "Module": "Enrollments"
+  },
+
+  {
+    "Code": "StudentAccounts.View",
+    "Name": "View Student Accounts",
+    "Module": "StudentAccounts"
+  },
+
+  {
+    "Code": "Charges.View",
+    "Name": "View Charges",
+    "Module": "Charges"
+  },
+  {
+    "Code": "Charges.Create",
+    "Name": "Create Charges",
+    "Module": "Charges"
+  },
+  {
+    "Code": "Charges.Cancel",
+    "Name": "Cancel Charges",
+    "Module": "Charges"
+  },
+
+  {
+    "Code": "Payments.View",
+    "Name": "View Payments",
+    "Module": "Payments"
+  },
+  {
+    "Code": "Payments.Create",
+    "Name": "Create Payments",
+    "Module": "Payments"
+  },
+
+  {
+    "Code": "PaymentAllocations.View",
+    "Name": "View Payment Allocations",
+    "Module": "PaymentAllocations"
+  },
+  {
+    "Code": "PaymentAllocations.Create",
+    "Name": "Create Payment Allocations",
+    "Module": "PaymentAllocations"
+  },
+
+  {
+    "Code": "Statements.View",
+    "Name": "View Student Statements",
+    "Module": "Statements"
+  },
+
+  {
+    "Code": "Refunds.View",
+    "Name": "View Refunds",
+    "Module": "Refunds"
+  },
+  {
+    "Code": "Refunds.Create",
+    "Name": "Create Refunds",
+    "Module": "Refunds"
+  }
+]

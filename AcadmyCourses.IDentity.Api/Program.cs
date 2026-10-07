@@ -1,4 +1,5 @@
 
+using AcadmyCourses.IDentity.Api.ExtentionFile;
 using AcadmyCourses.IDentity.Application;
 using AcadmyCourses.IDentity.Inftustucture;
 using AcadmyCourses.IDentity.Inftustucture.JWT;
@@ -8,8 +9,10 @@ namespace AcadmyCourses.IDentity.Api
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
+
+            
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddControllers();
             builder.Services.AddOpenApi();
@@ -39,6 +42,7 @@ namespace AcadmyCourses.IDentity.Api
             });
 
             var app = builder.Build();
+           await app.SeedDatabaseAsync();
 
             if (app.Environment.IsDevelopment())
             {

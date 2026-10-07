@@ -12,5 +12,7 @@ namespace AcadmyCourses.IDentity.Application.Contracts.Repositories
     {
         Task<Result<CreateUserGroupDtos>> CreateUserasync(DataUserGroupDtos data, CancellationToken ct);
         Task<Result<CreateUserGroupDtos>> UpdateUserasync(Guid id, DataUserGroupDtos data, CancellationToken ct);
+        Task<Result<PermissionAddToGroups>> AssidnPermissionToGroupAsync(Guid groupId, List<Guid> permissionCodes, CancellationToken ct);
+        Task<Result<List<dynamic>>> GetAllUserGroupAsync(CancellationToken ct);
     }
 }

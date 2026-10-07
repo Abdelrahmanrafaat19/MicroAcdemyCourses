@@ -2,12 +2,11 @@
 using AcadmyCourses.IDentity.Application.Dtos.UserGroupDtos;
 using AcadmyCourses.IDentity.Domain.contracts;
 using AcadmyCourses.IDentity.Domain.UserGroup;
+using AcadmyCourses.IDentity.Inftustucture.Entities;
+using AcadmyCourses.IDentity.Inftustucture.IDentityContext;
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using StockManagment.Application.common;
-using System;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace AcadmyCourses.IDentity.Inftustucture.Repository
 {
@@ -15,12 +14,14 @@ namespace AcadmyCourses.IDentity.Inftustucture.Repository
     {
         private readonly IUniteOfWork _uniteOfWork;
         private readonly IMapper _mapper;
-        public UerGroupRepository(IUniteOfWork  uniteOfWork , IMapper mapper)
+        private readonly IDentityDbContext context;
+        public UerGroupRepository(IUniteOfWork  uniteOfWork , IMapper mapper, IDentityDbContext dbContext)
         {
             _uniteOfWork = uniteOfWork;
             _mapper = mapper;
+            context = dbContext;
         }
-        public async Task<Result<CreateUserGroupDtos>> UpdateUserasync(Guid id, DataUserGroupDtos data, CancellationToken ct)
+      public async Task<Result<CreateUserGroupDtos>> UpdateUserasync(Guid id, DataUserGroupDtos data, CancellationToken ct)
         {
             var repo = _uniteOfWork.GetRepository<UserGroup>();
 
@@ -53,7 +54,7 @@ namespace AcadmyCourses.IDentity.Inftustucture.Repository
             var updated = _mapper.Map<CreateUserGroupDtos>(existing);
             return Result<CreateUserGroupDtos>.Success(updated);
         }
-        public async Task<Result<CreateUserGroupDtos>> CreateUserasync(DataUserGroupDtos data, CancellationToken ct)
+      public async Task<Result<CreateUserGroupDtos>> CreateUserasync(DataUserGroupDtos data, CancellationToken ct)
         {
             var newGroup = _mapper.Map<UserGroup>(data);
 
@@ -69,6 +70,90 @@ namespace AcadmyCourses.IDentity.Inftustucture.Repository
 
             var createdGroup = _mapper.Map<CreateUserGroupDtos>(newGroup);
             return Result<CreateUserGroupDtos>.Success(createdGroup);
+        }
+
+        public async Task<Result<PermissionAddToGroups>> AssidnPermissionToGroupAsync(Guid groupId, List<Guid> permissionCodes, CancellationToken ct)
+        {
+            var GroupRepo = _uniteOfWork.GetRepository<UserGroup>();
+            var GroupExisting =await GroupRepo.GetByIdAsync<Guid>(groupId);
+            if(GroupExisting is null)
+            {
+                return Result<PermissionAddToGroups>.Failure(Error.Failure("NotFound", "User group not found"));
+            }
+
+            var removeDuplicatesPermissions = permissionCodes.Distinct().ToList();
+            var GroupPermissions = new List<GroupPermission>();
+            var ExistedPermission = new List<Guid>();
+            var NotExistedPermission = new List<Guid>();
+            
+
+
+
+            foreach (var PerCode in removeDuplicatesPermissions)
+            {
+                var permissionRepo = _uniteOfWork.GetRepository<Permission>();
+                var permissionExisting = await permissionRepo.GetByIdAsync<Guid>(PerCode);
+                if (permissionExisting is null)
+                {
+                    NotExistedPermission.Add(PerCode);
+
+                }
+                else
+                {
+                    var groupPermission = new GroupPermission
+                    {
+                        PermissionId = PerCode,
+                        UserGroupID = groupId
+                    };
+                    GroupPermissions.Add(groupPermission);
+                    ExistedPermission.Add(PerCode);
+
+                }
+            }
+
+            await _uniteOfWork.GetRepository<GroupPermission>().AddRangeAsync(GroupPermissions);
+            var result = await _uniteOfWork.SaveChangesAsync(ct);
+            if(result ==0)
+            {
+                return Result<PermissionAddToGroups>.Failure(Error.Failure("ErrorType.Failure", "Fail in assigning permission to group"));
+            }
+
+            return Result<PermissionAddToGroups>.Success(new PermissionAddToGroups
+            {
+                ExistedPermissons = ExistedPermission.Select(p => p.ToString()).ToList(),
+                NotExistedPermissons = NotExistedPermission.Select(p => p.ToString()).ToList()
+            });
+        }
+
+        public async Task<Result<List<dynamic>>> GetAllUserGroupAsync(CancellationToken ct)
+        {
+            var getAllUserGroup = await context.Set<UserGroup>()
+                .Include(ug => ug.UserGroupPermissions)
+                    .ThenInclude(g => g.PermissionCo)
+                .ToListAsync(ct);
+
+            var result = new List<dynamic>();
+            foreach (var g in getAllUserGroup)
+            {
+                result.Add(new
+                {
+                    Id = g.Id,
+                    Name = g.Name,
+                    Description = g.Description,
+                    IsActive = g.IsActive,
+                    Permissions = (g.UserGroupPermissions == null)
+                        ? new List<object>()
+                        : g.UserGroupPermissions.Select(p => (object)new
+                        {
+                            p.PermissionCo.Id,
+                            p.PermissionCo.Code,
+                            p.PermissionCo.Name,
+                            p.PermissionCo.Module
+                        }).ToList()
+                });
+            }
+
+            return Result<List<dynamic>>.Success(result);
         }
     }
 }

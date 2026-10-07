@@ -3822,23 +3822,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\dev-05\\.nuget\\packages\\": {},
+    "C:\\Users\\Montag Store\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Api\\AcadmyCourses.IDentity.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Api\\AcadmyCourses.IDentity.Api.csproj",
       "projectName": "AcadmyCourses.IDentity.Api",
-      "projectPath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Api\\AcadmyCourses.IDentity.Api.csproj",
-      "packagesPath": "C:\\Users\\dev-05\\.nuget\\packages\\",
-      "outputPath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Api\\obj\\",
+      "projectPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Api\\AcadmyCourses.IDentity.Api.csproj",
+      "packagesPath": "C:\\Users\\Montag Store\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\dev-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Montag Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3855,8 +3855,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj": {
-              "projectPath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj"
+            "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj": {
+              "projectPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj"
             }
           }
         }

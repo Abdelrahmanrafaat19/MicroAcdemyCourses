@@ -13,10 +13,10 @@ namespace AcadmyCourses.IDentity.Inftustucture.Cofiguration
         {
             builder.HasKey(x => new { x.UserGroupID, x.PermissionId });
             builder.HasOne(x => x.UserGroupCo)
-                .WithMany()
+                .WithMany(g => g.UserGroupPermissions)
                 .HasForeignKey(x => x.UserGroupID);
             builder.HasOne(x => x.PermissionCo)
-               .WithMany()
+               .WithMany(p => p.UserGroupPermissions)
                .HasForeignKey(x => x.PermissionId);
         }
     }

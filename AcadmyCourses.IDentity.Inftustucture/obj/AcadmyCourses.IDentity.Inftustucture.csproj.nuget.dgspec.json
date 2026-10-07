@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj": {}
+    "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj": {}
   },
   "projects": {
-    "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj": {
+    "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj",
         "projectName": "AcadmyCourses.IDentity.Application",
-        "projectPath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj",
-        "packagesPath": "C:\\Users\\dev-05\\.nuget\\packages\\",
-        "outputPath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Application\\obj\\",
+        "projectPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj",
+        "packagesPath": "C:\\Users\\Montag Store\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dev-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Montag Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -34,8 +34,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj": {
-                "projectPath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj"
+              "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj": {
+                "projectPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj"
               }
             }
           }
@@ -360,20 +360,20 @@
         }
       }
     },
-    "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj": {
+    "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj",
         "projectName": "AcadmyCourses.IDentity.Domain",
-        "projectPath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj",
-        "packagesPath": "C:\\Users\\dev-05\\.nuget\\packages\\",
-        "outputPath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj",
+        "packagesPath": "C:\\Users\\Montag Store\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dev-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Montag Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -702,20 +702,20 @@
         }
       }
     },
-    "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj": {
+    "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj",
+        "projectUniqueName": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj",
         "projectName": "AcadmyCourses.IDentity.Inftustucture",
-        "projectPath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj",
-        "packagesPath": "C:\\Users\\dev-05\\.nuget\\packages\\",
-        "outputPath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Inftustucture\\obj\\",
+        "projectPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj",
+        "packagesPath": "C:\\Users\\Montag Store\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\dev-05\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Montag Store\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -732,8 +732,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj": {
-                "projectPath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj"
+              "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj": {
+                "projectPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj"
               }
             }
           }

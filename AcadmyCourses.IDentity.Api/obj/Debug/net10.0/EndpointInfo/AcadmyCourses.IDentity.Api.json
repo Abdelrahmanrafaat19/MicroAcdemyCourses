@@ -1,9 +1,17 @@
 {
-  "openapi": "3.0.4",
+  "openapi": "3.1.1",
   "info": {
-    "title": "AcadmyCourses.IDentity.Api",
-    "version": "1.0"
+    "title": "AcadmyCourses.IDentity.Api | v1",
+    "version": "1.0.0"
   },
+  "servers": [
+    {
+      "url": "https://localhost:7050"
+    },
+    {
+      "url": "http://localhost:5050"
+    }
+  ],
   "paths": {
     "/api/Authenication/Register": {
       "post": {
@@ -27,7 +35,8 @@
                 "$ref": "#/components/schemas/CreateUserDto"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
           "200": {
@@ -58,7 +67,8 @@
                 "$ref": "#/components/schemas/UpdateUserData"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
           "200": {
@@ -113,7 +123,8 @@
                 "$ref": "#/components/schemas/InPutLoginDto"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
           "200": {
@@ -144,7 +155,8 @@
                 "$ref": "#/components/schemas/CreatePermissionDto"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
           "200": {
@@ -209,7 +221,8 @@
                 "$ref": "#/components/schemas/DataUserGroupDtos"
               }
             }
-          }
+          },
+          "required": true
         },
         "responses": {
           "200": {
@@ -251,8 +264,76 @@
                 "$ref": "#/components/schemas/DataUserGroupDtos"
               }
             }
-          }
+          },
+          "required": true
         },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UserGroup/AssignPermissionToGroup/{groupId}": {
+      "post": {
+        "tags": [
+          "UserGroup"
+        ],
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "format": "uuid"
+                }
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/UserGroup/GetAllUserGroups": {
+      "get": {
+        "tags": [
+          "UserGroup"
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -267,118 +348,101 @@
         "type": "object",
         "properties": {
           "code": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "name": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "module": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           }
-        },
-        "additionalProperties": false
+        }
       },
       "CreateUserDto": {
         "type": "object",
         "properties": {
           "firstName": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "lastName": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "userName": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "email": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "password": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           }
-        },
-        "additionalProperties": false
+        }
       },
       "DataUserGroupDtos": {
         "type": "object",
         "properties": {
           "name": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "description": {
-            "type": "string",
-            "nullable": true
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "isActive": {
             "type": "boolean"
           }
-        },
-        "additionalProperties": false
+        }
       },
       "InPutLoginDto": {
         "type": "object",
         "properties": {
           "email": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           },
           "password": {
-            "type": "string",
-            "nullable": true
+            "type": "string"
           }
-        },
-        "additionalProperties": false
+        }
       },
       "UpdateUserData": {
         "type": "object",
         "properties": {
           "firstName": {
-            "type": "string",
-            "nullable": true
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "lastName": {
-            "type": "string",
-            "nullable": true
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "userName": {
-            "type": "string",
-            "nullable": true
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "password": {
-            "type": "string",
-            "nullable": true
+            "type": [
+              "null",
+              "string"
+            ]
           },
           "currentPassword": {
-            "type": "string",
-            "nullable": true
+            "type": [
+              "null",
+              "string"
+            ]
           }
-        },
-        "additionalProperties": false
-      }
-    },
-    "securitySchemes": {
-      "Bearer": {
-        "type": "http",
-        "description": "Enter your JWT token like: Bearer {your token}",
-        "scheme": "Bearer",
-        "bearerFormat": "JWT"
+        }
       }
     }
   },
-  "security": [
-    {
-      "Bearer": [ ]
-    }
-  ],
   "tags": [
     {
       "name": "Authenication"
