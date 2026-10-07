@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ngAmfihGBts=",
+  "dgSpecHash": "VDiAgHWQum8=",
   "success": true,
-  "projectFilePath": "D:\\AcadmyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj",
+  "projectFilePath": "C:\\Users\\dev-05\\Desktop\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dev-05\\.nuget\\packages\\automapper\\16.2.0\\automapper.16.2.0.nupkg.sha512",
     "C:\\Users\\dev-05\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.12\\microsoft.extensions.dependencyinjection.abstractions.10.0.12.nupkg.sha512",
