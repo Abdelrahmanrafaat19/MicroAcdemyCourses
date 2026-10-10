@@ -14,11 +14,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj",
       "projectName": "AcadmyCourses.IDentity.Domain",
       "projectPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj",
       "packagesPath": "C:\\Users\\Montag Store\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\dev-05\\Desktop\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj",
+      "projectName": "AcadmyCourses.IDentity.Domain",
+      "projectPath": "C:\\Users\\dev-05\\Desktop\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\AcadmyCourses.IDentity.Domain.csproj",
+      "packagesPath": "C:\\Users\\dev-05\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dev-05\\Desktop\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Domain\\obj\\",
+>>>>>>> 4f60af9894a998b15659d3f417b56dad46a13a39
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

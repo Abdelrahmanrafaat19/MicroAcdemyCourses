@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "5zUaWgSTrLw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Api\\AcadmyCourses.IDentity.Api.csproj",
+=======
+  "dgSpecHash": "Up9TAlN3h3M=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dev-05\\Desktop\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Api\\AcadmyCourses.IDentity.Api.csproj",
+>>>>>>> 4f60af9894a998b15659d3f417b56dad46a13a39
   "expectedPackageFiles": [
     "C:\\Users\\Montag Store\\.nuget\\packages\\automapper\\16.2.0\\automapper.16.2.0.nupkg.sha512",
     "C:\\Users\\Montag Store\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",

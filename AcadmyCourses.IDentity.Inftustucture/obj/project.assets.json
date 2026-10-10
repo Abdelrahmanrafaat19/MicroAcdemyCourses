@@ -4346,11 +4346,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj",
       "projectName": "AcadmyCourses.IDentity.Inftustucture",
       "projectPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj",
       "packagesPath": "C:\\Users\\Montag Store\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\dev-05\\Desktop\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj",
+      "projectName": "AcadmyCourses.IDentity.Inftustucture",
+      "projectPath": "C:\\Users\\dev-05\\Desktop\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\AcadmyCourses.IDentity.Inftustucture.csproj",
+      "packagesPath": "C:\\Users\\dev-05\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dev-05\\Desktop\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Inftustucture\\obj\\",
+>>>>>>> 4f60af9894a998b15659d3f417b56dad46a13a39
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4373,8 +4381,13 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
+<<<<<<< HEAD
             "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj": {
               "projectPath": "C:\\Users\\Montag Store\\Desktop\\AcadmyCourses\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj"
+=======
+            "C:\\Users\\dev-05\\Desktop\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj": {
+              "projectPath": "C:\\Users\\dev-05\\Desktop\\MicroAcdemyCourses\\AcadmyCourses.IDentity.Application\\AcadmyCourses.IDentity.Application.csproj"
+>>>>>>> 4f60af9894a998b15659d3f417b56dad46a13a39
             }
           }
         }
