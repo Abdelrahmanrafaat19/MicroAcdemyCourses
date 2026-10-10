@@ -1,8 +1,9 @@
 
+
 using AcadmyCourses.IDentity.Api.ExtentionFile;
-using AcadmyCourses.IDentity.Application;
 using AcadmyCourses.IDentity.Inftustucture;
 using AcadmyCourses.IDentity.Inftustucture.JWT;
+using AcadmyCourses.IDentity.Application;
 using Microsoft.OpenApi;
 
 namespace AcadmyCourses.IDentity.Api
@@ -19,7 +20,6 @@ namespace AcadmyCourses.IDentity.Api
             builder.Services.AddInfrastructureServices(builder.Configuration);
             builder.Services.AddApplicationServices();
             builder.Services.Configure<JwtSettings>(builder.Configuration.GetSection("JwtSettings"));
-            builder.Services.AddOpenApi();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen(options =>
             {

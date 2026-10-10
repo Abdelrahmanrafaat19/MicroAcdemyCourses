@@ -181,6 +181,7 @@ C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDe
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\bin\Debug\net10.0\appsettings.json
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\bin\Debug\net10.0\AcadmyCourses.IDentity.Api.staticwebassets.endpoints.json
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\bin\Debug\net10.0\AcadmyCourses.IDentity.Api.exe
+C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\bin\Debug\net10.0\Entities\SeedData\permissions.json
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\bin\Debug\net10.0\AcadmyCourses.IDentity.Api.deps.json
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\bin\Debug\net10.0\AcadmyCourses.IDentity.Api.runtimeconfig.json
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\bin\Debug\net10.0\AcadmyCourses.IDentity.Api.dll
@@ -357,4 +358,3 @@ C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDe
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\obj\Debug\net10.0\AcadmyCourses.IDentity.Api.pdb
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\obj\Debug\net10.0\AcadmyCourses.IDentity.Api.genruntimeconfig.cache
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\obj\Debug\net10.0\ref\AcadmyCourses.IDentity.Api.dll
-C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\bin\Debug\net10.0\Entities\SeedData\permissions.json
