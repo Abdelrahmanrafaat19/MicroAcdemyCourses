@@ -28,6 +28,11 @@ namespace AcadmyCourses.IDentity.Application.Services
             return await _userGroupRepository.GetAllUserGroupAsync(ct);
         }
 
+        public async Task<Result<UserGroupAndUser>> GetUserGroupById(Guid id, CancellationToken ct)
+        {
+            return await _userGroupRepository.GetUserGroupById(id , ct);
+        }
+
         public async Task<Result<CreateUserGroupDtos>> UpdateUserGroupasync(Guid id, DataUserGroupDtos data, CancellationToken ct)
         {
             return await _userGroupRepository.UpdateUserasync(id, data, ct);

@@ -11,5 +11,6 @@ namespace AcadmyCourses.IDentity.Application.Dtos.CreateUserDto
         public string userName { get; set; } = default!;
         public string email { get; set; } = default!;
         public string password { get; set; } = default!;
+        public Guid UserGroupId { get; set; } = default!;
     }
 }

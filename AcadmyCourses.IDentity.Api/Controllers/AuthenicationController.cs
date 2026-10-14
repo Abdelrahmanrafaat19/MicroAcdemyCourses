@@ -1,7 +1,7 @@
 ﻿using AcadmyCourses.IDentity.Application.Contracts.Servicees;
-using AcadmyCourses.IDentity.Application.Dtos;
 using AcadmyCourses.IDentity.Application.Dtos.CreateUserDto;
 using AcadmyCourses.IDentity.Application.Dtos.LoginDto;
+using AcadmyCourses.IDentity.Application.Dtos.UserEntityDto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -56,6 +56,12 @@ namespace AcadmyCourses.IDentity.Api.Controllers
         public async Task<IActionResult> LoginAsync([FromBody] InPutLoginDto data , CancellationToken ct = default!)
         {
             var result = await _authenticationService.LoginAsync(data, ct);
+            return HandleResult(result);
+        }
+        [HttpPost("UpdateUserGroup")]
+        public async Task<IActionResult> UpdateUserGroup([FromBody] UpdateUserGroupDto data , CancellationToken ct = default!)
+        {
+            var result = await _authenticationService.UpdateUserGroupAsync(GroupID: data.GroupID, UserID: data.UserID, ct: ct);
             return HandleResult(result);
         }
     }
