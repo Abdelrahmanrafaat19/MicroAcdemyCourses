@@ -358,3 +358,7 @@ C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDe
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\obj\Debug\net10.0\AcadmyCourses.IDentity.Api.pdb
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\obj\Debug\net10.0\AcadmyCourses.IDentity.Api.genruntimeconfig.cache
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\obj\Debug\net10.0\ref\AcadmyCourses.IDentity.Api.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\obj\Debug\net10.0\AcadmyCourses.IDentity.Api.csproj.AssemblyReference.cache
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\obj\Debug\net10.0\AcadmyCourses.IDentity.Api.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\obj\Debug\net10.0\refint\AcadmyCourses.IDentity.Api.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Api\obj\Debug\net10.0\AcadmyCourses.IDentity.Api.pdb

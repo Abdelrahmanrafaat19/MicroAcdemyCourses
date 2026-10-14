@@ -29,3 +29,19 @@ C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDe
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\refint\AcadmyCourses.IDentity.Application.dll
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\AcadmyCourses.IDentity.Application.pdb
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\ref\AcadmyCourses.IDentity.Application.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\bin\Debug\net10.0\AcadmyCourses.IDentity.Application.deps.json
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\bin\Debug\net10.0\AcadmyCourses.IDentity.Application.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\bin\Debug\net10.0\AcadmyCourses.IDentity.Application.pdb
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\bin\Debug\net10.0\AcadmyCourses.IDentity.Domain.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\bin\Debug\net10.0\AcadmyCourses.IDentity.Domain.pdb
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\AcadmyCourses.IDentity.Application.csproj.AssemblyReference.cache
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\AcadmyCourses.IDentity.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\AcadmyCourses.IDentity.Application.AssemblyInfoInputs.cache
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\AcadmyCourses.IDentity.Application.AssemblyInfo.cs
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\AcadmyCourses.IDentity.Application.csproj.CoreCompileInputs.cache
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\AcadmyCourses.IDentity.Application.sourcelink.json
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\AcadmyCo.712D0C4C.Up2Date
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\AcadmyCourses.IDentity.Application.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\refint\AcadmyCourses.IDentity.Application.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\AcadmyCourses.IDentity.Application.pdb
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Application\obj\Debug\net10.0\ref\AcadmyCourses.IDentity.Application.dll
