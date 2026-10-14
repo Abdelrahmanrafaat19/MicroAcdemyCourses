@@ -7,7 +7,7 @@ namespace AcadmyCourses.IDentity.Inftustucture.Entities
 {
     public class UserEntity : IdentityUser
     {
-        public string FirstName  { get; set; }
+        public string FirstName { get; set; }
         public string LastName  { get; set; }
         public bool isActive { get; set; } = true;
         public Guid UserGroupId { get; set; }

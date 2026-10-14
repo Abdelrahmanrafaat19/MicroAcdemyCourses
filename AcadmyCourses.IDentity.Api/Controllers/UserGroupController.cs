@@ -47,5 +47,11 @@ namespace AcadmyCourses.IDentity.Api.Controllers
             return HandleResult(result);
         }
 
+        [HttpGet("GetUserGroupById/{groupID}")]
+        public async Task<IActionResult> GetUserGroupById([FromRoute]Guid groupID , CancellationToken ct = default)
+        {
+            var data = await _userGroupService.GetUserGroupById(groupID, ct);
+            return HandleResult(data);
+        }
     }
 }

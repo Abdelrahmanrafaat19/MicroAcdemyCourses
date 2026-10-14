@@ -1,7 +1,7 @@
 ﻿using AcadmyCourses.IDentity.Application.Contracts.Servicees;
-using AcadmyCourses.IDentity.Application.Dtos;
 using AcadmyCourses.IDentity.Application.Dtos.CreateUserDto;
 using AcadmyCourses.IDentity.Application.Dtos.LoginDto;
+using AcadmyCourses.IDentity.Application.Dtos.UserEntityDto;
 using AcadmyCourses.IDentity.Inftustucture.Entities;
 using Microsoft.AspNetCore.Identity;
 using StockManagment.Application.common;
@@ -37,6 +37,7 @@ namespace AcadmyCourses.IDentity.Inftustucture.Repository
                 LastName = dto.lastName,
                 FirstName = dto.firstName,
                 Email = dto.email,
+                UserGroupId=dto.UserGroupId
 
             };
             var result = await _userManager.CreateAsync(NewUser, dto.password);
@@ -268,6 +269,36 @@ namespace AcadmyCourses.IDentity.Inftustucture.Repository
                 Email=user.Email!
             });
 
+        }
+
+        public async Task<Result<bool>> UpdateUserGroupAsync(Guid UserID, Guid GroupID, CancellationToken ct)
+        {
+            var useExsit = await _userManager.FindByIdAsync(UserID.ToString());
+            if(useExsit is null)
+            {
+                return Result<bool>.Failure(Error.NotFound("ErrorType.NotFound", "User Not Exist"));
+            }
+
+
+            if(useExsit.UserGroupId==GroupID)
+            {
+                return Result<bool>.Failure(Error.Validation("ErrorType.Validation", "User is Already Exist in This Group"));
+            }
+            useExsit.UserGroupId=GroupID;
+
+            var updateResult= await _userManager.UpdateAsync(useExsit);
+
+            if (!updateResult.Succeeded)
+            {
+                var ErrorsMessage = string.Join(" / ", updateResult.Errors);
+                return Result<bool>.Failure(Error.Failure("ErrorType.Failure", ErrorsMessage));
+            }
+
+
+            return Result<bool>.Success(true);
+
+
+            
         }
     }
 }

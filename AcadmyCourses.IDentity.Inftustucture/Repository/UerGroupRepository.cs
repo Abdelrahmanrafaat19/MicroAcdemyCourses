@@ -4,6 +4,7 @@ using AcadmyCourses.IDentity.Domain.contracts;
 using AcadmyCourses.IDentity.Domain.UserGroup;
 using AcadmyCourses.IDentity.Inftustucture.Entities;
 using AcadmyCourses.IDentity.Inftustucture.IDentityContext;
+using AcadmyCourses.IDentity.Inftustucture.Specification;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using StockManagment.Application.common;
@@ -154,6 +155,23 @@ namespace AcadmyCourses.IDentity.Inftustucture.Repository
             }
 
             return Result<List<dynamic>>.Success(result);
+        }
+
+        public async Task<Result<UserGroupAndUser>> GetUserGroupById(Guid id, CancellationToken ct)
+        {
+            var specivcation = new UserGroupSpecefication(id);
+            var GroupExisting=await  _uniteOfWork.GetRepository<UserGroup>().GetAsync(specivcation);
+            if(GroupExisting is null)
+            {
+              return Result<UserGroupAndUser>.Failure(Error.Failure("NotFound", "User group not found"));
+            }
+
+            var data = _mapper.Map<UserGroupAndUser>(GroupExisting);
+
+            return Result<UserGroupAndUser>.Success(data);
+
+
+
         }
     }
 }

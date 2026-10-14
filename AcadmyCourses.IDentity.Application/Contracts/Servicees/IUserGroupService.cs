@@ -14,5 +14,7 @@ namespace AcadmyCourses.IDentity.Application.Contracts.Servicees
         Task<Result<CreateUserGroupDtos>> UpdateUserGroupasync(Guid id, DataUserGroupDtos data, CancellationToken ct);
         Task<Result<PermissionAddToGroups>> AssignPermissionToGroupAsync(Guid groupId, List<Guid> permissionCodes, CancellationToken ct);
         Task<Result<List<dynamic>>> GetAllUserGroupAsync(CancellationToken ct);
+        Task<Result<UserGroupAndUser>> GetUserGroupById(Guid id, CancellationToken ct);
+     
     }
 }

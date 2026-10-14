@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AcadmyCourses.IDentity.Application.Dtos
+namespace AcadmyCourses.IDentity.Application.Dtos.UserEntityDto
 {
     public class ProfileDataDto
     {

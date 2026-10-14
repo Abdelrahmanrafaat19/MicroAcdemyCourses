@@ -23,3 +23,16 @@ C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDe
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.pdb
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\ref\AcadmyCourses.IDentity.Domain.dll
 C:\Users\Montag Store\Desktop\AcadmyCourses\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCo.FDF0BA1A.Up2Date
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\bin\Debug\net10.0\AcadmyCourses.IDentity.Domain.deps.json
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\bin\Debug\net10.0\AcadmyCourses.IDentity.Domain.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\bin\Debug\net10.0\AcadmyCourses.IDentity.Domain.pdb
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.AssemblyInfoInputs.cache
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.AssemblyInfo.cs
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.csproj.CoreCompileInputs.cache
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.sourcelink.json
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\refint\AcadmyCourses.IDentity.Domain.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCourses.IDentity.Domain.pdb
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\ref\AcadmyCourses.IDentity.Domain.dll
+C:\Users\dev-05\Desktop\MicroAcdemyCourses\AcadmyCourses.IDentity.Domain\obj\Debug\net10.0\AcadmyCo.FDF0BA1A.Up2Date

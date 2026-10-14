@@ -61,7 +61,23 @@
     "Parameters": [
       {
         "Name": "data",
-        "Type": "AcadmyCourses.IDentity.Application.Dtos.UpdateUserData",
+        "Type": "AcadmyCourses.IDentity.Application.Dtos.UserEntityDto.UpdateUserData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcadmyCourses.IDentity.Api.Controllers.AuthenicationController",
+    "Method": "UpdateUserGroup",
+    "RelativePath": "api/Authenication/UpdateUserGroup",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "AcadmyCourses.IDentity.Application.Dtos.UserEntityDto.UpdateUserGroupDto",
         "IsRequired": true
       }
     ],
@@ -154,6 +170,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AcadmyCourses.IDentity.Api.Controllers.UserGroupController",
+    "Method": "GetUserGroupById",
+    "RelativePath": "api/UserGroup/GetUserGroupById/{groupID}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "groupID",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
